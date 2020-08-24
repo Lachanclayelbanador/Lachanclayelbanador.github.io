@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leo Masseglia</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <!-- CSS -->
+
+        <!-- Fonts -->
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/21d41346f9.js" crossorigin="anonymous"></script>
+
+        <!-- Fonts -->
+        
+        <!--Meta SEO-->
+
+        <meta name="description" content="Bonjour, je m'appelle Léo MASSEGLIA et voici mon site portfolio informatique !">
+        <meta name="keywords" content="portfolio,developpement, informatique, reseau, front-end">
+
+        <!--Meta SEO-->
+
+    </head>
+    <body>
+        <!--ANCHOR - Header-->
+        <!-- Header -->
+        <div class="block">
+            <header class="header">
+                <a href="#" class="header-logo nav_text">Leo MASSEGLIA</a>
+                <nav class="header-menu">
+                    <a href="src/about.html" class="nav_text">A propos</a>
+                    <a href="src/projects.html" class="nav_text">Mes travaux</a>
+                    <a href="#contact" class="nav_text">Contact</a>
+                </nav>
+            </header>
+        </div>
+        <!--ANCHOR - Banner-->
+        <!-- banner -->
+        <div class="block">
+            <div class="banner">
+                <img src="src/img/bg.jpg" alt="working theme background" class="banner-image">
+                <div class="banner-content">
+                    <h1 class="title is-1">Bienvenue sur mon portfolio</h1>
+                    <h2 class="subtitle">Découvrez mes travaux et mon univers !</h2>
+                    <button class="button is-link" id="open_modal">Contactez-moi</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- banner -->
+
+        <!-- ANCHOR - Modal -->
+        <!-- Modal-->
+            <div class="modal own-modal" id="modal_to_open">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">Modal title</p>
+                        <button class="delete" id="close_modal" aria-label="close"></button>
+                    </header>
+                    <section class="modal-card-body">
+                        <!-- Content ... -->
+                    </section>
+                    <footer class="modal-card-foot">
+                        <button class="button is-link">Save changes</button>
+                        <button class="button">Cancel</button>
+                    </footer>
+                </div>
+            </div>
+        <!-- Modal-->
+
+        
+
+        <div class="block">
+            <footer class="footer">
+                <h2 id="contact" class="heading-site">Contactez-moi</h2>
+                <div class="footer-contact-form">
+                    <form action="mail.php">
+                        <div class="field">
+                            <label class="label">Prénom</label>
+                            <div class="control">
+                                <input id="firstname" class="input" name="firstname" type="text" placeholder="e.g Alex">
+                            </div>
+                        </div>
+                          
+                        <div class="field">
+                            <label class="label">Nom</label>
+                            <div class="control">
+                                <input id="name" class="input" name="name" type="text" placeholder="e.g. Ouais">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input id="email" class="input" name="email" type="email" placeholder="e.g. alexouais@gmail.com">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea id="message" class="textarea" name="message" placeholder="Textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="field is-grouped">
+                            <div class="control">
+                              <button id="send_email" class="button is-link">Soumettre</button>
+                            </div>
+                            <div class="control">
+                              <button class="button is-link is-light">Annuler</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-informations">
+                    <p> 150 Rue des zozos</p>
+                    <p> 13300 Salon de Provence</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <!-- Contact -->
+        
+        <!-- JS -->
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous">
+        </script>
+        <script src="src/js/script.js"></script>
+        <!-- JS -->
+    </body>
+</html>

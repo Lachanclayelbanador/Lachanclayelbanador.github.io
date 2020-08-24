@@ -1,0 +1,152 @@
+/* GLOBAL */
+
+.heading-site{
+    text-align: center;
+    font-family:'Roboto', sans-serif; ;
+}
+html body{
+    text-align: center;
+}
+/* GLOBAL */ 
+
+
+/* HEADER */
+
+.header{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    height:70px;
+    line-height:70px;
+    background-color:rgba(0,0,0,0) ;
+    position:fixed;
+    top:0;
+    z-index:999;
+}
+
+
+.header .header-logo{
+    color:white;
+    font-family:  'Roboto', sans-serif;
+    float:left;
+    margin-left: 30px;
+}
+
+.header .header-menu{
+    float:right;
+    margin-right:30px;
+
+}
+
+.header .header-menu a{
+    margin-right: 15px;
+    color:white;
+
+}
+.nav_text.scrolled{
+    color: #000 !important;
+    transition: background-color 200ms linear;
+}
+
+.header .header-menu a:hover{
+    color:#3498db;
+}
+
+/* HEADER */
+
+/* BANNER */
+.banner{
+    margin-top: -25px;
+}
+
+.banner .banner-image{
+    position: relative;
+}
+.banner .banner-content{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    top: 30%;
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: #ffffff;
+}
+
+/* BANNER */
+
+/* MODAL */ 
+.own-modal{
+    padding-top: 120px;
+}
+
+
+/* MODAL */
+
+/* ABOUT */
+.about .about-single-element .icon{
+    text-align: center;
+    margin:auto;
+    
+}
+.about .about-single-element .web,
+.about .about-single-element .infra{
+    margin-right: 3%;
+}
+.about .about-single-element .dev{
+    margin-right: 1%;
+}
+.about .about-single-element{
+    text-align: center;
+}
+
+.about .about-single-element .p1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about .about-single-element h3,
+.about .about-single-element h4{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.about .about-single-element h3{
+    font-weight:bold;
+    font-size: 2em;
+}
+
+.about .about-single-element h4{
+    font-size: 1.5em;
+}
+
+.about .about-single-element .p2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/* ABOUT */
+
+/* FOOTER */
+
+.footer .footer-informations{
+    text-align: center;
+}
+
+.footer .footer-informations ul{
+    padding:0;
+}
+
+.footer .footer-informations ul li{
+    display:inline-block;
+    list-style: none;
+}
+
+.footer .footer-informations ul li a{
+    font-size: 30px;
+    margin: 20px;
+}
+
+/* FOOTER */

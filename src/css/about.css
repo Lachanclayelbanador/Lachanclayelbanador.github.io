@@ -1,0 +1,161 @@
+/* GLOBAL */
+html{
+    background-color: #E9EDEF;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+/* GLOBAL */ 
+
+
+/* HEADER */
+.headercontainer{
+    width:30%;
+}
+
+.header{
+    
+    margin-left:0;
+    margin-right:0;
+    height:100%;
+    background-color:rgba(0,0,0,0) ;
+    top:0;
+    z-index:999;
+    text-align: center;
+}
+
+.header .header-logo{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.header .logo-container{
+    height:40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 2.5em;
+}
+
+
+.header .header-menu{
+    line-height: 50px;
+    font-size: 2em;
+}
+
+.header .header-menu a{
+    color:black;
+}
+.header .header-menu a:hover{
+    margin-bottom:10px;
+    border-bottom: black solid 1px;
+}
+
+/* HEADER */
+
+/* BODY */ 
+
+.head{
+    top:0;
+    right:0;
+    height:300px;
+    margin-right:60px;
+    color:white;
+    position: absolute;
+    width:65%;
+    display: flex;
+    
+}
+.head .side{
+    background-color:#1A1E23;
+    width:70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.side .quote{
+    margin-left: 130px;
+    height: 100px;
+    width:70%;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+.side .mention{
+
+    height: 30px;
+    width:29.7%;
+    align-self: flex-end;
+}
+
+
+.head .img{
+    width:30%;
+    border: red solid 1px;
+}
+
+.head .img img{
+    height:100%;
+    width: 100%;
+}
+
+/* ABOUT */
+
+
+.test{
+    padding-top: 2%;
+    margin-top: -43px;
+    height: 550px;
+    width:65%;
+    margin-right:60px;
+    float:right;
+    background-color: white;
+}
+.about .about-single-element .icon{
+    text-align: center;
+    margin:auto;
+    margin-top: 30px;
+}
+.about .about-single-element .web,
+.about .about-single-element .infra{
+    margin-right: 3%;
+}
+.about .about-single-element .dev{
+    margin-right: 1%;
+}
+.about .about-single-element{
+    text-align: center;
+}
+
+.about .about-single-element .p1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about .about-single-element h3,
+.about .about-single-element h4{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.about .about-single-element h3{
+    font-weight:bold;
+    font-size: 2em;
+}
+
+.about .about-single-element h4{
+    font-size: 1.5em;
+}
+
+.about .about-single-element .p2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/* ABOUT */
+
