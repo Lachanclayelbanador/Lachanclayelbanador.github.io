@@ -51,14 +51,18 @@ html{
 
 /* HEADER */
 
-.iframe{
+.cv{
     width:65%;
+    height:1000px;
     float:right;
     margin-right: 30px;
     top:0px;
 }
-iframe{
+embed{
     width:100%;
-   
     height:1000px;
+}
+
+.cv a{
+    float:right;
 }
